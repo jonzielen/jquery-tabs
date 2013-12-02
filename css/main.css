@@ -1,0 +1,13 @@
+/* jquery tabs */
+#jquery-tabs #tab-nav li {display:inline;}
+#jquery-tabs #tab-holder {position:relative;}
+#jquery-tabs .tab-item {position:absolute;top:0;left:0;display:none;}
+#jquery-tabs .show-tab {display:block;position:relative;}
+
+#jquery-tabs #tab-nav li a {background-color:#ccc;display:inline-block;width:23.5%;text-align:center;padding:2px 0 6px;}
+#jquery-tabs #tab-nav li a.active-tab {background-color:#eee;}
+#jquery-tabs #tab-nav {padding:0;margin:0;}
+#jquery-tabs #tab-container {border: 1px solid #000;overflow:visible;width:200px;background-color:#eee;height:100%;}
+#jquery-tabs .tab-item {padding:10px;}
+#jquery-tabs .tab-item h3 {padding:0;margin:0;}
+#jquery-tabs .tab-item p {padding:0;margin:0;}
